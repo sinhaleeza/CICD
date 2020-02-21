@@ -2,7 +2,9 @@ function Frame(i, j){
   if(i<0 || j<0){
      throw new Error('Invalid Frame');
   }
+
   this._firstThrow = i;
+
   this._secondThrow = j;
 };
 
